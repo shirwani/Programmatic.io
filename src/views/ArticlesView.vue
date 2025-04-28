@@ -82,7 +82,7 @@ window.onload = function () {
 
       <div class="rounded-sm bg-teal-950 p-5 w-72 m-10">
         <h2 class="font-extrabold text-white text-lg">
-          Behind Programmatic.org
+          Behind Programmatics
         </h2>
         <br />
         <p class="font-semibold text-white text-sm">
