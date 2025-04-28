@@ -196,12 +196,15 @@ window.onload = function () {
     Start Learning today!
   </h2>
   <button
-    id="open-popup-btn"
-    class="bg-gray-500 hover:bg-gray-600 active:bg-gray-600 p-5 rounded shadow-md font-extrabold text-blue-200 m-5 text-base open-popup-btn"
-    role="link"
-  >
-    Enroll Now &rarr;
-  </button>
+  id="open-popup-btn"
+  class="bg-gray-500 hover:bg-gray-600 active:bg-gray-600 p-5 rounded shadow-md font-extrabold text-blue-200 m-5 text-base open-popup-btn"
+  role="link"
+  onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSf7ZkX9e4_M6N1LTsWQgEFhkkJSX4bLq4UKozkwLk-dk6GPPw/viewform?usp=header', '_blank')"
+>
+  Enroll Now &rarr;
+</button>
+
+ 
   <div class="gap-5 mb-5 flex bg-blue-800 p-2 rounded-sm Autoplay-btn">
     <h4 class="font-extrabold text-white text-2xl">Autoplay:</h4>
     <br />
@@ -366,11 +369,7 @@ window.onload = function () {
             <h2 class="text-black font-extrabold">Scratch</h2>
             <h3 class="text-white font-bold pb-5">Beginner</h3>
             <p class="px-5 text-center text-white text-size">
-              Scratch is a dynamic block code language developed by MIT,
-              designed to teach kids how to code. Scratch Scratch is excellent
-              at teaching beginners how to think logically, introducing
-              important concepts and letting students explore without the
-              addition of boilerplatey syntax.
+              Scratch is a free, visual programming language where you create projects by snapping together code blocks like puzzle pieces. It's designed to make coding easy and fun, especially for beginners and young learners.
             </p>
           </li>
           <li class="cardEn">
@@ -380,11 +379,7 @@ window.onload = function () {
             <h2 class="text-black font-extrabold">Python Basic</h2>
             <h3 class="text-white font-bold pb-5">Beginner-Intermediate</h3>
             <p class="px-5 text-center text-white text-size">
-              This course jumps right into a text based programming language:
-              Python. Python is a general purpose language developed by Guido
-              van Rossum, and it is one of the easiest languages to learn.
-              Despite its simpilicty, has been used in many important
-              applications (i.e. machine learning).
+              This course introduces Python, a simple yet powerful programming language. We'll cover the basics like variables, loops, and functions, and build up to real-world applications like simple games and data projects.
             </p>
           </li>
           <li class="cardEn">
@@ -394,11 +389,7 @@ window.onload = function () {
             <h2 h2 class="text-black font-extrabold">Python Advanced</h2>
             <h3 class="text-white font-bold pb-5">Intermediate</h3>
             <p class="px-5 text-center text-white text-size">
-              This course aims to focus on more advanced applications of Python.
-              Rather than simply learning Python as a language, students will
-              get to understand that languages are only tools. We'll dive into
-              advanced language concepts (i.e. classes), data structures,
-              algorithms, and real-world projects.
+              This course dives deeper into Python, focusing on advanced topics like object-oriented programming, algorithms, and data structures. We'll work on larger projects, explore real-world applications, and strengthen problem-solving and coding efficiency.
             </p>
           </li>
           <li class="cardEn">
@@ -408,24 +399,16 @@ window.onload = function () {
             <h2 class="text-black font-extrabold">Unity</h2>
             <h3 class="text-white font-bold pb-5">Intermediate-Advanced</h3>
             <p class="px-5 text-center text-white text-size">
-              In this class, we'll take a look at Unity, an amazing
-              cross-platform game engine that is used by many professionals to
-              create popular games like Call of Duty, Pokemon Go, Beat Saber,
-              and more! In this class, you'll learn, yourself, how to use this
-              tool to create amazing games and projects.
-            </p>
+              This course dives deeper into Unity development, focusing on advanced C# scripting, physics, animations, and optimizing larger 2D and 3D projects. We'll work on creating polished, professional-quality games and explore techniques used in real-world studios.            </p>
           </li>
           <li class="cardEn">
             <div class="img">
               <iconrpi />
             </div>
             <h2 class="text-black font-extrabold">Raspberry Pi</h2>
-            <h3 class="text-white font-bold pb-5">Advanced</h3>
+            <h3 class="text-white font-bold pb-5">Beginner-Intermediate</h3>
             <p class="px-5 text-center text-white text-size">
-              Learn to use hardware alongside software to create exciting
-              projects with the Raspberry Pi and the new Raspberry Pi Pico
-              microcontroller. In this class you'll learn how software can
-              interact with a real world enviorment
+              This course introduces Raspberry Pi, a small but powerful computer used for coding, electronics, and DIY projects. We'll start with setup, basic programming, and simple hardware projects like blinking LEDs and sensors.
             </p>
           </li>
         </ul>

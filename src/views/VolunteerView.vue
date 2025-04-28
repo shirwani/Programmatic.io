@@ -98,12 +98,13 @@ window.onload = function () {
       Volunteer Today!
     </h2>
     <button
-      id="open-popup-btn"
-      class="bg-gray-500 hover:bg-gray-600 active:bg-gray-600 p-5 rounded shadow-md font-extrabold text-blue-200 m-8 text-base open-popup-btn"
-      role="link"
-    >
-      Sign up &rarr;
-    </button>
+  id="open-popup-btn"
+  class="bg-gray-500 hover:bg-gray-600 active:bg-gray-600 p-5 rounded shadow-md font-extrabold text-blue-200 m-5 text-base open-popup-btn"
+  role="link"
+  onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSf9hifwCaKVXffa0gDefS_TtqbI-1AmxuBTtEW4fpkuvXTdPg/viewform?usp=sf_link', '_blank')"
+>
+  Volunteer &rarr;
+</button>
   </header>
   <!--  -->
   <!--  -->
@@ -282,14 +283,17 @@ window.onload = function () {
       <Zpattern1
         name="What Do We Expect In A Volunteer?"
         desc="
-        At Programmatic, our commitment to education and empowering students extends beyond the bounds of our dedicated team. We wholeheartedly believe in the strength of collective effort, and as such, we are constantly seeking enthusiastic individuals to join us as volunteers in our mission. our volunteers play a crucial role in enhancing the learning experience of our students. Whether you are an experienced programmer or someone passionate about sharing your knowledge in programming and computer science, we invite you to become part of our community."
-        imgurl="scratch.png"
+At Programmatic, we believe that education thrives through collaboration, and we’re always looking for passionate individuals to join us as volunteers. Our volunteers are a key part of what makes our program successful, playing an essential role in enhancing the learning experience for our students. Whether you're an experienced programmer or someone eager to share your love for technology, we’d love to have you on our team.
+
+"        imgurl="scratch.png"
       />
       <Zpattern1
         name="Why Vounteer?"
         desc="
-      As a volunteer, you will have the chance to engage with students from diverse backgrounds and play a pivotal role in shaping their journey in coding, Scratch, Python, Raspberry Pi, and Unity. Your dedication and support will enable these students to gain essential skills for the digital age, equipping them to thrive in a world shaped by technological advancements. click the button below and become a part of our passionate community of educators and changemakers."
-        imgurl="Unity.png"
+   Volunteering with Programmatic gives you the opportunity to engage with students from various backgrounds and make a meaningful impact on their journey in learning programming. By helping students explore coding languages like Scratch, Python, Raspberry Pi, and Unity, you'll equip them with the skills they need to succeed in the tech-driven world. Your time and dedication can make a real difference in their lives.
+
+Click the volunteering button above to join our community of educators and change-makers who are helping shape the future of tech education!     
+"        imgurl="Unity.png"
       />
     </section>
   </main>

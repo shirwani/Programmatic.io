@@ -8,14 +8,8 @@ import AboutItem from "./AboutItem.vue";
       <DocumentationIcon />
     </template>
     <template #heading>Who Are We?</template>
-    We are a nonprofit organization committed to providing extensive free online
-    education in computer science via Google Meet. We hope to expand to
-    in-person/physical classes at libraries and schools at somepoint in the
-    future. We offer many comprehensive courses in the hope that those who are
-    courses in the hope that those who are
-    interested in computer science will find opportunity to pursue their
-    interests here. Meet
-    <a class="text-blue-500" href="/enroll" type="link"><u> our team</u>.</a>
+    We are a nonprofit organization dedicated to offering free computer science education through classes held at middle schools and libraries. With locations in Stowe and Sudbury, we aim to make computer science accessible to all. Our courses provide an opportunity for students to explore their interest in technology and build valuable skills. 
+    <a class="text-blue-500" href="#/team" type="link"><u> our team</u>.</a>
   </AboutItem>
 
   <AboutItem>
@@ -24,12 +18,7 @@ import AboutItem from "./AboutItem.vue";
     </template>
     <template #heading>Goals</template>
 
-    At the heart of our organization lies a mission: to help students develop
-    curiosity for computer science, and equip them with essential skills to
-    navigate an era fundamentally defined by computer science. We are dedicated
-    to fostering a generation of individuals who can confidently embrace the
-    digital landscape, unlocking countless opportunities for personal and
-    professional growth.
+    At the heart of our mission is a commitment to helping students develop a curiosity for computer science and equip them with the essential skills needed to thrive in a tech-driven world. We are passionate about fostering a generation of individuals who are confident and capable in navigating the digital landscape, opening doors for personal and professional growth.
   </AboutItem>
   <AboutItem>
     <template #icon>
@@ -37,13 +26,8 @@ import AboutItem from "./AboutItem.vue";
     </template>
     <template #heading>Programs & Classes</template>
 
-    Our classes at Programmatic are designed for anyone and are ideal for those
-    eager to immerse themselves in programming. Parents who understand the
-    significance of teaching their children with early technological and
-    problem-solving skills will discover our offerings to be a valuable time
-    investment. The comprehensive courses we offer include, Unity, Raspberry Pi,
-    Python, and more! Find out more
-    <a class="text-blue-500" href="/enroll" type="link"><u>here</u>.</a>
+    Our classes are designed for anyone eager to learn programming, from beginners to those looking to deepen their skills. Parents who value teaching their children early technological and problem-solving skills will find our programs to be a worthwhile investment. We offer a range of comprehensive courses, including Unity, Raspberry Pi, Python, and more! Find out more here.
+    <a class="text-blue-500" href="#/enroll" type="link"><u>here</u>.</a>
   </AboutItem>
   <AboutItem>
     <template #icon>
@@ -51,11 +35,7 @@ import AboutItem from "./AboutItem.vue";
     </template>
     <template #heading>Future</template>
 
-    In our pursuit of empowering prospective computer science students
-    worldwide, our future goals encompass expanding our organization, ensuring
-    accessibility, while also broadening the scope of our curriculum to
-    encompass a wider variety of programming concepts. In this way, we hope to
-    cater to the varied interests and backgrounds of students.
+    As we continue expanding our reach, we aim to offer even more diverse and accessible computer science programs. Our goal is to broaden our curriculum, offering a variety of programming concepts to suit the varied interests and backgrounds of students. We are committed to making our resources available to as many students as possible.
   </AboutItem>
   <AboutItem>
     <template #icon>
@@ -63,15 +43,12 @@ import AboutItem from "./AboutItem.vue";
     </template>
     <template #heading>Donations</template>
 
-    Support us in making a difference
+    Support our mission 
     <a
       class="text-blue-500"
       href="https://hcb.hackclub.com/donations/start/programmatic"
       type="link"
       ><u>here</u></a
-    >. Any amount you give is appreciated as your donation helps us in keeping
-    our programs free and accessible for everyone to use. Every dollar you give
-    goes directly to providing participants with tools and resources to help
-    them succeed.
+    >, to provide free computer science education to all. Any donation, no matter the size, helps keep our programs accessible. Every dollar directly supports the resources, tools, and materials that help our students succeed.
   </AboutItem>
 </template>
