@@ -32,14 +32,10 @@
           <p
             class="txt-custom-scr mt-2 mb-4 text-lg text-gray-300 justify-center text-center"
           >
-            Programmatic is an organization dedicated to teaching prospective
-            students how to program. Computer science is a subject that is
-            growing more and more important by the day, and we want to make sure
-            that kids are able to explore and learn in this field. We want them to develop
-            important skills like algorithmic thinking.
+            rammatic is a nonprofit under Hackclub that helps kids learn coding and hardware by working on real projects. We guide them through building websites, creating games, wiring circuits, and designing tech solutions. By making tech hands-on and fun, we give students the tools to solve problems and gain confidence in their abilities. Our focus is on giving kids practical skills they can use in the real world.
           </p>
           <a
-            href="/about"
+            href="#/about"
             class="text-blue-300 transition hover:text-purple-300 duration-500 text-xl text-center justify-center"
             >About →</a
           >
@@ -62,16 +58,10 @@
           <h2
             class="txt-custom txt-title text-5xl font-extrabold py-5 text-white mt-1"
           >
-            CS Classes
+          Coding, Hardware, and Problem Solving
           </h2>
           <p class="txt-custom mt-4 py-1 mb-4 text-lg text-gray-300">
-            CS is an incredibly important subject that isn't taught to it's
-            fullest extent in most school districts. Computer science is the
-            driving force behind some of the most influential projects,
-            innventions, and applications in today's world, and now, more than
-            ever, it becomes crucial that this subject is explored and taught.
-            Programmatic offers 5 courses (with more on the way) for a variety
-            of skill levels.
+            In our classes, students will learn to build websites, program games, design circuits, and create their own tech solutions. Beyond technical skills, they'll develop creativity, critical thinking, and confidence as they tackle challenges and bring their ideas to life. Our goal is to provide a learning environment that encourages exploration, builds practical skills, and helps kids gain a deeper understanding of how technology works in the world around them.
           </p>
           <router-link
             to="/enroll"
@@ -93,15 +83,10 @@
             Volunteer
           </h2>
           <p class="txt-custom mt-4 mb-4 py-1 text-lg text-gray-300">
-            Want to help? Programmatic is the perfect spot for programmers and
-            developers who are interested in teaching computer science. Not only
-            can you gain experience in honing in your presentation and teaching
-            ability, you can earn volunteer ours, and teach the next generation
-            of students computer science. You can choose between 5 courses to
-            teach or work on expanding and developing Programmatic.
+            Want to help? Programmatic is the perfect place for programmers and developers interested in teaching STEM. Not only will you gain experience improving your presentation and teaching skills, but you can also earn volunteer hours while helping the next generation of students learn computer science. Choose from five courses to teach or contribute to expanding and developing Programmatic.
           </p>
           <a
-            href="/volunteer"
+            href="#/volunteer"
             class="text-blue-300 transition hover:text-purple-300 duration-500 text-xl"
             >Volunteer →</a
           >
