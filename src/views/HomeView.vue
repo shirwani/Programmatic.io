@@ -32,7 +32,7 @@
           <p
             class="txt-custom-scr mt-2 mb-4 text-lg text-gray-300 justify-center text-center"
           >
-            rammatic is a nonprofit under Hackclub that helps kids learn coding and hardware by working on real projects. We guide them through building websites, creating games, wiring circuits, and designing tech solutions. By making tech hands-on and fun, we give students the tools to solve problems and gain confidence in their abilities. Our focus is on giving kids practical skills they can use in the real world.
+            Programmatic is a nonprofit under Hackclub that helps kids learn coding and hardware by working on real projects. We guide them through building websites, creating games, wiring circuits, and designing tech solutions. By making tech hands-on and fun, we give students the tools to solve problems and gain confidence in their abilities. Our focus is on giving kids practical skills they can use in the real world.
           </p>
           <a
             href="#/about"
